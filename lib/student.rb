@@ -101,7 +101,7 @@ class Student
       SELECT *
       FROM students
       WHERE grade = 10
-      ORDER BY
+      ORDER BY student.id
       LIMIT 1;
     SQL
 
